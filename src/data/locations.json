@@ -12,6 +12,24 @@
         }
     ],
     [
+        "Copenhagen, Denmark",
+        {
+            "Coordinates":[55.6670553,12.5803731]
+        }
+    ],
+    [
+        "Nicosia, Cyprus",
+        {
+            "Coordinates":[35.1783997,33.3610973]
+        }
+    ],
+    [
+        "Prague, Czechia",
+        {
+            "Coordinates":[50.0476843,14.434457]
+        }
+    ],
+    [
         "Sofia, Bulgaria",
         {
             "Coordinates":[42.7324848,23.2556647]
@@ -21,6 +39,12 @@
         "Vienna, Austria",
         {
             "Coordinates":[48.1791132,16.4165694]
+        }
+    ],
+    [
+        "Zagreb, Croatia",
+        {
+            "Coordinates":[45.7914471,15.9336245]
         }
     ]
 ]
