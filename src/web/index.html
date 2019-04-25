@@ -9,15 +9,47 @@
 
 		<link rel="stylesheet" type="text/css" href="SHEETNAME.css">
 
-		<style>
-            body {
-                background-color:black;
-                color:lime;
+        <script>
+            let xhttp = new XMLHttpRequest();
+
+            function getPosition() {
+
             }
-		</style>
+        </script>
+
+		<style>
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            #pano {
+                height: 75%;
+                width: 75%;
+            }
+        </style>
 	</head>
 	<body>
-        <h1>yeah you're connected mate</h1>
-        <p>pretty NEAT</p>
+        <h1>HOST IP: ${IPADDRESS}</h1>
+
+        <div id="pano"></div>
+
+        <script>
+            function initialize() {
+                var panorama = new google.maps.StreetViewPanorama(
+                document.getElementById('pano'), {
+                    disableDefaultUI: true,
+                    position: {lat:42.345573,lng:-71.098326},
+                    pov: {
+                        heading: 34,
+                        pitch: 10
+                    },
+                    showRoadLabels: false
+                });
+                map.setStreetView(panorama);
+            };
+        </script>
+    
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEXbccd0ze4_BjFDKADoLNbXq_xOiOegA&callback=initialize"></script>
 	</body>
 </html> 
