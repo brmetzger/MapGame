@@ -1,6 +1,7 @@
 //Require external modules
 const fs = require("fs");
 const http = require("http");
+    const port = 80;
 
 fs.readFile('./web/index.html', (err, html) => {
     if (err) {
@@ -8,8 +9,12 @@ fs.readFile('./web/index.html', (err, html) => {
         throw err; 
     };
     //Create the server
-    http.createServer((request,response) => {
+    let server = http.createServer((request,response) => {
         response.writeHeader(200, {"Content-Type":"text/html"});  
         response.end(html);
-    }).listen(80);
+    });
+    
+    //Listen to the server
+    server.listen(port);
+    console.log(`Map game running on port ${port}`);
 });
