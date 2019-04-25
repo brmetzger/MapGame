@@ -1,0 +1,26 @@
+[
+    [
+        "Belgrade, Serbia",
+        {
+            "Coordinates":[44.8066185,20.4612595]
+        }
+    ],
+    [
+        "Brussels, Belgium",
+        {
+            "Coordinates":[50.8608278,4.3509184]
+        }
+    ],
+    [
+        "Sofia, Bulgaria",
+        {
+            "Coordinates":[42.7324848,23.2556647]
+        }
+    ],
+    [
+        "Vienna, Austria",
+        {
+            "Coordinates":[48.1791132,16.4165694]
+        }
+    ]
+]
