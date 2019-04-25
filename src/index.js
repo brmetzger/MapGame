@@ -2,6 +2,7 @@
 const fs = require("fs");
 const http = require("http");
     const port = 80;
+const ip = require("ip");
 
 fs.readFile('./web/index.html', (err, html) => {
     if (err) {
@@ -10,8 +11,8 @@ fs.readFile('./web/index.html', (err, html) => {
     };
     //Create the server
     let server = http.createServer((request,response) => {
-        response.writeHeader(200, {"Content-Type":"text/html"});  
-        response.end(html);
+        response.writeHeader(200, {"Content-Type":"text/html"});
+        response.end(html.toString().replace("${IPADDRESS}",ip.address()));
     });
     
     //Listen to the server
