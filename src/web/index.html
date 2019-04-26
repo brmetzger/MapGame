@@ -27,18 +27,15 @@
 
             function getPosition() {
                 //Select a random location
-                var country = Math.floor((Math.random() * locations.length));
+                let country = Math.floor((Math.random() * locations.length));
                 console.log(locations.length + " " + country);
                 selectedLocation = locations[country][0];
-                var locationNum = 1;
-                if (locations[country].length > 2) {
-                    Math.floor((Math.random() * locations[country].length - 1) + 1);
-                };
+                let locationNum =  Math.floor((Math.random() * (locations[country].length - 1)) + 1);
                 console.log(selectedLocation + " " + locations[country].length + " " + locationNum);
-                var locationData = locations[country][locationNum];
+                let locationData = locations[country][locationNum];
 
                 //Show the map
-                var panorama = new google.maps.StreetViewPanorama(
+                let panorama = new google.maps.StreetViewPanorama(
                 document.getElementById('pano'), {
                     disableDefaultUI: true,
                     position: {lat:locationData["Coordinates"][0],lng:locationData["Coordinates"][1]},
