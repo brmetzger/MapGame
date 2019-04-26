@@ -1,8 +1,53 @@
 [
     [
+        "Amsterdam, The Netherlands",
+        {
+            "Coordinates":[52.341111,4.8435031]
+        }
+    ],
+    [
+        "Andorra la Vella, Andorra",
+        {
+            "Coordinates":[42.5038792,1.5199974]
+        }
+    ],
+    [
+        "Athens, Greece",
+        {
+            "Coordinates":[37.9981085,23.7913245]
+        }
+    ],
+    [
+        "Baku, Azerbaijan",
+        {
+            "Coordinates":[40.3991452,49.8348991]
+        }
+    ],
+    [
         "Belgrade, Serbia",
         {
             "Coordinates":[44.8066185,20.4612595]
+        },
+        {
+            "Coordinates":[44.8044485,20.471404]
+        }
+    ],
+    [
+        "Berlin, Germany",
+        {
+            "Coordinates":[52.5597272,13.4203089]
+        }
+    ],
+    [
+        "Bern, Switzerland",
+        {
+            "Coordinates":[46.954704,7.4335214]
+        }
+    ],
+    [
+        "Bratislava, Slovakia",
+        {
+            "Coordinates":[48.1574977,17.1637531]
         }
     ],
     [
@@ -12,9 +57,93 @@
         }
     ],
     [
+        "Bucharest, Romania",
+        {
+            "Coordinates":[44.3931877,26.066042]
+        }
+    ],
+    [
+        "Budapest, Hungary",
+        {
+            "Coordinates":[47.4205596,19.0777907]
+        }
+    ],
+    [
+        "Chinisau, Moldova",
+        {
+            "Coordinates":[47.0383445,28.8068288]
+        }
+    ],
+    [
         "Copenhagen, Denmark",
         {
             "Coordinates":[55.6670553,12.5803731]
+        }
+    ],
+    [
+        "Dublin, Ireland",
+        {
+            "Coordinates":[53.3302787,-6.3319141]
+        }
+    ],
+    [
+        "Helsinki, Finland",
+        {
+            "Coordinates":[60.1815793,24.9307144]
+        }
+    ],
+    [
+        "Kiev, Ukraine",
+        {
+            "Coordinates":[50.3841308,30.4572558]
+        }
+    ],
+    [
+        "Lisbon, Portugal",
+        {
+            "Coordinates":[38.7964847,-9.1162817]
+        }
+    ],
+    [
+        "Ljubljana, Slovenia",
+        {
+            "Coordinates":[46.047398,14.5194819]
+        }
+    ],
+    [
+        "London, England",
+        {
+            "Coordinates":[51.5758148,-0.2215894]
+        }
+    ],
+    [
+        "Luxembourg City, Luxembourg",
+        {
+            "Coordinates":[49.6097158,6.111798]
+        }
+    ],
+    [
+        "Madrid, Spain",
+        {
+            "Coordinates":[40.3915128,-3.7031176]
+        }
+    ],
+    [
+        "Minsk, Belarus",
+        {
+            "Coordinates":[53.9149444,27.544468]
+        }
+    ],
+    [
+        "Monte Carlo, Monaco",
+        {
+            "Coordinates":[43.742329,7.4214437]
+        }
+    ],
+    [
+        "Moscow, Russia",
+        {
+            "Coordinates":[55.7486467,37.6003633]
         }
     ],
     [
@@ -24,9 +153,69 @@
         }
     ],
     [
+        "Nursultan, Kazakhstan",
+        {
+            "Coordinates":[51.1861664,71.4028689]
+        }
+    ],
+    [
+        "Oslo, Norway",
+        {
+            "Coordinates":[59.9319742,10.7489752]
+        }
+    ],
+    [
+        "Paris, France",
+        {
+            "Coordinates":[48.7397066,2.2820537]
+        }
+    ],
+    [
+        "Podgorica, Montenegro",
+        {
+            "Coordinates":[42.4385319,19.2367137]
+        }
+    ],
+    [
         "Prague, Czechia",
         {
             "Coordinates":[50.0476843,14.434457]
+        }
+    ],
+    [
+        "Reykjavik, Iceland",
+        {
+            "Coordinates":[64.1421293,-21.9027957]
+        }
+    ],
+    [
+        "Riga, Latvia",
+        {
+            "Coordinates":[56.9585469,24.0259718]
+        }
+    ],
+    [
+        "Rome, Italy",
+        {
+            "Coordinates":[41.8924769,12.5056356]
+        }
+    ],
+    [
+        "Sarajevo, Bosnia",
+        {
+            "Coordinates":[43.8589065,18.4178502]
+        }
+    ],
+    [
+        "San Marino, San Marino",
+        {
+            "Coordinates":[43.9359574,12.4461828]
+        }
+    ],
+    [
+        "Skopje, North Macedonia",
+        {
+            "Coordinates":[42.0033298,21.3962815]
         }
     ],
     [
@@ -36,9 +225,57 @@
         }
     ],
     [
+        "Stockholm, Sweden",
+        {
+            "Coordinates":[59.3602178,17.9061045]
+        }
+    ],
+    [
+        "Talinn, Estonia",
+        {
+            "Coordinates":[59.4361731,24.731953]
+        }
+    ],
+    [
+        "Tirana, Albania",
+        {
+            "Coordinates":[41.3446441,19.7918884]
+        }
+    ],
+    [
+        "Vaduz, Liechtenstein",
+        {
+            "Coordinates":[47.1298568,9.4875821]
+        }
+    ],
+    [
+        "Valetta, Malta",
+        {
+            "Coordinates":[35.8966114,14.5048773]
+        }
+    ],
+    [
         "Vienna, Austria",
         {
             "Coordinates":[48.1791132,16.4165694]
+        }
+    ],
+    [
+        "Vilnius, Lithuania",
+        {
+            "Coordinates":[54.670944,25.2983134]
+        }
+    ],
+    [
+        "Warsaw, Poland",
+        {
+            "Coordinates":[52.1730919,21.0728712]
+        }
+    ],
+    [
+        "Yerevan, Armenia",
+        {
+            "Coordinates":[40.173087,44.4572853]
         }
     ],
     [
