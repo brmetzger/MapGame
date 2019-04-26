@@ -1,0 +1,308 @@
+[
+    [
+        "Albany, New York",
+        {
+            "Coordinates":[42.677065,-73.8135435]
+        }
+    ],
+    [
+        "Annapolis, Maryland",
+        {
+            "Coordinates":[38.973127,-76.4855959]
+        }
+    ],
+    [
+        "Atlanta, Georgia",
+        {
+            "Coordinates":[33.7513977,-84.3894026]
+        }
+    ],
+    [
+        "Augusta, Maine",
+        {
+            "Coordinates":[44.3059734,-69.7704546]
+        }
+    ],
+    [
+        "Austin, Texas",
+        {
+            "Coordinates":[30.2876245,-97.7417374]
+        }
+    ],
+    [
+        "Baton Rouge, Louisiana",
+        {
+            "Coordinates":[30.389285,-91.0538508]
+        }
+    ],
+    [
+        "Bismarck, North Dakota",
+        {
+            "Coordinates":[46.8143971,-100.7813804]
+        }
+    ],
+    [
+        "Boise, Idaho",
+        {
+            "Coordinates":[43.6154643,-116.2036278]
+        }
+    ],
+    [
+        "Boston, Massachusetts",
+        {
+            "Coordinates":[42.3009364,-71.0636309]
+        }
+    ],
+    [
+        "Carson City, Nevada",
+        {
+            "Coordinates":[39.1665412,-119.7669504]
+        }
+    ],
+    [
+        "Charleston, West Virginia",
+        {
+            "Coordinates":[38.3647891,-81.6963765]
+        }
+    ],
+    [
+        "Cheyenne, Wyoming",
+        {
+            "Coordinates":[41.1450767,-104.7856177]
+        }
+    ],
+    [
+        "Columbia, South Carolina",
+        {
+            "Coordinates":[34.0036918,-81.0328902]
+        }
+    ],
+    [
+        "Columbus, Ohio",
+        {
+            "Coordinates":[39.9467916,-82.9917646]
+        }
+    ],
+    [
+        "Concord, New Hampshire",
+        {
+            "Coordinates":[43.2020779,-71.5389142]
+        }
+    ],
+    [
+        "Denver, Colorado",
+        {
+            "Coordinates":[39.7404136,-104.9957606]
+        }
+    ],
+    [
+        "Des Moines, Iowa",
+        {
+            "Coordinates":[41.5636688,-93.6088774]
+        }
+    ],
+    [
+        "Dover, Delaware",
+        {
+            "Coordinates":[39.1557261,-75.5408662]
+        }
+    ],
+    [
+        "Frankfort, Kentucky",
+        {
+            "Coordinates":[38.1909251,-84.8756422]
+        }
+    ],
+    [
+        "Harrisburg, Pennsylvania",
+        {
+            "Coordinates":[40.2825614,-76.8831353]
+        }
+    ],
+    [
+        "Hartford, Connecticut",
+        {
+            "Coordinates":[41.7469792,-72.6936397]
+        }
+    ],
+    [
+        "Helena, Montana",
+        {
+            "Coordinates":[46.5865865,-112.0324992]
+        }
+    ],
+    [
+        "Honolulu, Hawaii",
+        {
+            "Coordinates":[21.3157803,-157.8315874]
+        }
+    ],
+    [
+        "Indianapolis, Indiana",
+        {
+            "Coordinates":[39.7615552,-86.1618842]
+        }
+    ],
+    [
+        "Jackson, Mississippi",
+        {
+            "Coordinates":[32.3066568,-90.2049165]
+        }
+    ],
+    [
+        "Jefferson City, Missouri",
+        {
+            "Coordinates":[38.5773626,-92.2137648]
+        }
+    ],
+    [
+        "Juneau, Alaska",
+        {
+            "Coordinates":[58.3031876,-134.4083464]
+        }
+    ],
+    [
+        "Lansing, Michigan",
+        {
+            "Coordinates":[42.7291337,-84.6064993]
+        }
+    ],
+    [
+        "Lincoln, Nebraska",
+        {
+            "Coordinates":[40.7991682,-96.6964977]
+        }
+    ],
+    [
+        "Little Rock, Arkansas",
+        {
+            "Coordinates":[34.7338285,-92.3002728]
+        }
+    ],
+    [
+        "Madison, Wisconsin",
+        {
+            "Coordinates":[43.0683654,-89.4008577]
+        }
+    ],
+    [
+        "Montgomery, Alabama",
+        {
+            "Coordinates":[32.3497314,-86.2886016]
+        }
+    ],
+    [
+        "Montpelier, Vermont",
+        {
+            "Coordinates":[44.2600717,-72.5754344]
+        }
+    ],
+    [
+        "Nashville, Tennessee",
+        {
+            "Coordinates":[36.1708308,-86.7481143]
+        }
+    ],
+    [
+        "Oklahoma City, Oklahoma",
+        {
+            "Coordinates":[35.4478203,-97.5062557]
+        }
+    ],
+    [
+        "Olympia, Washington",
+        {
+            "Coordinates":[47.0426193,-122.9223583]
+        }
+    ],
+    [
+        "Pierre, South Dakota",
+        {
+            "Coordinates":[44.3671748,-100.3575243]
+        }
+    ],
+    [
+        "Phoenix, Arizona",
+        {
+            "Coordinates":[33.5385217,-112.203823]
+        }
+    ],
+    [
+        "Providence, Rhode Island",
+        {
+            "Coordinates":[41.8249839,-71.4074973]
+        }
+    ],
+    [
+        "Raleigh, North Carolina",
+        {
+            "Coordinates":[35.8721167,-78.7184808]
+        }
+    ],
+    [
+        "Richmond, Virginia",
+        {
+            "Coordinates":[37.5348541,-77.4329952]
+        }
+    ],
+    [
+        "Sacramento, California",
+        {
+            "Coordinates":[38.5682128,-121.4587333]
+        }
+    ],
+    [
+        "Salem, Oregon",
+        {
+            "Coordinates":[44.9501277,-123.0564469]
+        }
+    ],
+    [
+        "Salt Lake City, Utah",
+        {
+            "Coordinates":[40.7118062,-111.8841106]
+        }
+    ],
+    [
+        "Santa Fe, New Mexico",
+        {
+            "Coordinates":[35.6781309,-105.9530526]
+        }
+    ],
+    [
+        "Springfield, Illinois",
+        {
+            "Coordinates":[39.7837835,-89.679264]
+        }
+    ],
+    [
+        "St Paul, Minnesota",
+        {
+            "Coordinates":[44.9562328,-93.1696124]
+        }
+    ],
+    [
+        "Tallahassee, Florida",
+        {
+            "Coordinates":[30.4204059,-84.302599]
+        }
+    ],
+    [
+        "Topeka, Kansas",
+        {
+            "Coordinates":[39.03294,-95.7303982]
+        }
+    ],
+    [
+        "Trenton, New Jersey",
+        {
+            "Coordinates":[40.2144369,-74.7777152]
+        }
+    ],
+    [
+        "Washington D.C., United States of America",
+        {
+            "Coordinates:":[38.9045599,-77.0103742]
+        }
+    ]
+]
