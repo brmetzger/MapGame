@@ -6,9 +6,10 @@ const IP = require("ip");
 
 //Require internal modules
 const LOCATIONS_EUROPE = require("./locations/europe.json");
+const LOCATIONS_ME = require("./locations/middleeast.json");
 const LOCATIONS_US = require("./locations/usa.json");
 function getWorldLocations() {
-    return LOCATIONS_EUROPE.concat(LOCATIONS_US);
+    return LOCATIONS_EUROPE.concat(LOCATIONS_US).concat(LOCATIONS_ME);
 };
 
 FS.readFile('./web/index.html', (err, html) => {
@@ -27,7 +28,7 @@ FS.readFile('./web/index.html', (err, html) => {
             response.writeHeader(200);
             response.end(JSON.stringify(LOCATIONS_EUROPE));
         } else if (request.url == "/usa.json") {
-            //Get the list of locations in Europe
+            //Get the list of locations in the USA
             response.writeHeader(200);
             response.end(JSON.stringify(LOCATIONS_US));
         } else {
@@ -39,5 +40,5 @@ FS.readFile('./web/index.html', (err, html) => {
     
     //Listen to the server
     server.listen(PORT);
-    console.log(`Map game running on port ${PORT}`);
+    console.log(`Map game running on ${IP.address()}:${PORT}`);
 });
