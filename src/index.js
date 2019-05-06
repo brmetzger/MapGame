@@ -14,6 +14,10 @@ FS.readFile('./web/index.html', (err, html) => {
     };
     //Create the server
     let server = HTTP.createServer((request,response) => {
+        //Log the request
+        console.log(`Request for ${request.url} made from ${request.connection.remoteAddress}`);
+
+        //Send back the response
         let responseData = PAGE_HANDLER.Handle(request,html);
         response.writeHeader(responseData["Status"],responseData["Head-Data"]);
         response.end(responseData["Body"]);

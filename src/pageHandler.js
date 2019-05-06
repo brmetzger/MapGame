@@ -17,7 +17,7 @@ exports.GetLocations = function(location) {
         } else {
             outputPage = LOCATION_HANDLER.LOCATIONS[location];
         };
-        
+
         //Complete the response
         locationData["Body"] = JSON.stringify(outputPage);
         return locationData;
@@ -56,7 +56,6 @@ const PAGE_FUNCTIONS = {
 
 //Handle the webpage
 exports.Handle = function(request,html) {
-    console.log(request.url);
     if (request.url in PAGE_FUNCTIONS) {
         return PAGE_FUNCTIONS[request.url](html);
     } else {
