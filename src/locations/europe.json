@@ -3,24 +3,72 @@
         "Amsterdam, The Netherlands",
         {
             "Coordinates":[52.341111,4.8435031]
+        },
+        {
+            "Coordinates":[52.3778354,4.9338268]
+        },
+        {
+            "Coordinates":[52.390253,4.8583764]
+        },
+        {
+            "Coordinates":[52.3676707,4.8991469]
+        },
+        {
+            "Coordinates":[52.3595282,4.9088421]
         }
     ],
     [
         "Andorra la Vella, Andorra",
         {
             "Coordinates":[42.5038792,1.5199974]
+        },
+        {
+            "Coordinates":[42.5075486,1.5204807]
+        },
+        {
+            "Coordinates":[42.5067648,1.5312615]
+        },
+        {
+            "Coordinates":[42.5114241,1.535967]
+        },
+        {
+            "Coordinates":[42.5130436,1.5375527]
         }
     ],
     [
         "Athens, Greece",
         {
             "Coordinates":[37.9981085,23.7913245]
+        },
+        {
+            "Coordinates":[37.9762627,23.7139358]
+        },
+        {
+            "Coordinates":[37.9895508,23.7170376]
+        },
+        {
+            "Coordinates":[37.9662446,23.7335121]
+        },
+        {
+            "Coordinates":[37.9720027,23.7287789]
         }
     ],
     [
         "Baku, Azerbaijan",
         {
             "Coordinates":[40.3991452,49.8348991]
+        },
+        {
+            "Coordinates":[40.381835,49.8086382]
+        },
+        {
+            "Coordinates":[40.376452,49.858053]
+        },
+        {
+            "Coordinates":[40.388617,49.8790576]
+        },
+        {
+            "Coordinates":[40.398624,49.8015163]
         }
     ],
     [
@@ -30,30 +78,87 @@
         },
         {
             "Coordinates":[44.8044485,20.471404]
+        },
+        {
+            "Coordinates":[44.7881847,20.4532661]
+        },
+        {
+            "Coordinates":[44.7995457,20.4708687]
+        },
+        {
+            "Coordinates":[44.8248485,20.4480744]
         }
     ],
     [
         "Berlin, Germany",
         {
             "Coordinates":[52.5597272,13.4203089]
+        },
+        {
+            "Coordinates":[52.4858821,13.4821691]
+        },
+        {
+            "Coordinates":[52.4643127,13.3298459]
+        },
+        {
+            "Coordinates":[52.4982755,13.2975409]
+        },
+        {
+            "Coordinates":[52.5170199,13.3021926]
         }
     ],
     [
         "Bern, Switzerland",
         {
             "Coordinates":[46.954704,7.4335214]
+        },
+        {
+            "Coordinates":[46.9403307,7.4541976]
+        },
+        {
+            "Coordinates":[46.9559968,7.4616514]
+        },
+        {
+            "Coordinates":[46.9655625,7.4629356]
+        },
+        {
+            "Coordinates":[46.9654982,7.4317427]
         }
     ],
     [
         "Bratislava, Slovakia",
         {
             "Coordinates":[48.1574977,17.1637531]
+        },
+        {
+            "Coordinates":[48.1478866,17.0891597]
+        },
+        {
+            "Coordinates":[48.1461485,17.1036368]
+        },
+        {
+            "Coordinates":[48.1445561,17.133425]
+        },
+        {
+            "Coordinates":[48.1106796,17.1050684]
         }
     ],
     [
         "Brussels, Belgium",
         {
             "Coordinates":[50.8608278,4.3509184]
+        },
+        {
+            "Coordinates":[50.8358379,4.3522108]
+        },
+        {
+            "Coordinates":[50.847627,4.3608587]
+        },
+        {
+            "Coordinates":[50.8527096,4.3203333]
+        },
+        {
+            "Coordinates":[50.8471545,4.3526226]
         }
     ],
     [
