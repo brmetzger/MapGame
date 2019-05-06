@@ -1,8 +1,44 @@
 [
     [
+        "Amman, Jordan",
+        {
+            "Coordinates":[31.9165335,35.9294572]
+        }
+    ],
+    [
+        "Beirut, Lebanon",
+        {
+            "Coordinates":[33.8713335,35.5156304]
+        }
+    ],
+    [
+        "Doha, Qatar",
+        {
+            "Coordinates":[25.2998889,51.5008399]
+        }  
+    ],
+    [
         "Jerusalem, Israel",
         {
             "Coordinates":[31.7613091, 35.2090875]
+        }
+    ],
+    [
+        "Manama, Bahrain",
+        {
+            "Coordinates":[26.2061231,50.5805736]
+        }
+    ],
+    [
+        "Muscat, Oman",
+        {
+            "Coordinates":[23.6121511,58.3021782]
+        }
+    ],
+    [
+        "Riyadh, Saudi Arabia",
+        {
+            "Coordinates":[24.7329204,46.6654825]
         }
     ]
 ]
