@@ -5,12 +5,7 @@ const HTTP = require("http");
 const IP = require("ip");
 
 //Require internal modules
-const LOCATIONS_EUROPE = require("./locations/europe.json");
-const LOCATIONS_ME = require("./locations/middleeast.json");
-const LOCATIONS_US = require("./locations/usa.json");
-function getWorldLocations() {
-    return LOCATIONS_EUROPE.concat(LOCATIONS_US).concat(LOCATIONS_ME);
-};
+const PAGE_HANDLER = require("./pageHandler.js");
 
 FS.readFile('./web/index.html', (err, html) => {
     if (err) {
@@ -19,23 +14,9 @@ FS.readFile('./web/index.html', (err, html) => {
     };
     //Create the server
     let server = HTTP.createServer((request,response) => {
-        if (request.url == "/locations.json") {
-            //Get the list of locations
-            response.writeHeader(200);
-            response.end(JSON.stringify(getWorldLocations()));
-        } else if (request.url == "/europe.json") {
-            //Get the list of locations in Europe
-            response.writeHeader(200);
-            response.end(JSON.stringify(LOCATIONS_EUROPE));
-        } else if (request.url == "/usa.json") {
-            //Get the list of locations in the USA
-            response.writeHeader(200);
-            response.end(JSON.stringify(LOCATIONS_US));
-        } else {
-            //Loaded the web page normally
-            response.writeHeader(200, {"Content-Type":"text/html"});
-            response.end(html.toString().replace("${IPADDRESS}",IP.address()));
-        };
+        let responseData = PAGE_HANDLER.Handle(request,html);
+        response.writeHeader(responseData["Status"],responseData["Head-Data"]);
+        response.end(responseData["Body"]);
     });
     
     //Listen to the server
